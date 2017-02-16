@@ -5,10 +5,7 @@ from django.template import Context, loader
 
 
 def home(request):
-    if hasattr(request.user, 'lang'):
-        request.session['django_language'] = request.user.lang
-    #return render(request, 'index.html', [])
-    return error404(request)
+    return render(request, 'index.html', [])
 
 
 def error400(request):
