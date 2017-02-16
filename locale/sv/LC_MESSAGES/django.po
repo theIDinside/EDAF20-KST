@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-16 00:59+0100\n"
+"POT-Creation-Date: 2017-02-16 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: home/templates/base.html:19
+#: home/templates/index.html:7
+msgid "Cookie Supply Unit"
+msgstr "Lagerbakverksenheten"
+
+#: home/templates/index.html:8
+msgid "This version handles everything concerning raw materials and recipes."
+msgstr "Den här versionen behandlar allt i fråga om råvaror och recept."
+
+#: home/templates/index.html:11
+msgid "Cookie Production Unit"
+msgstr "Produktionbakverksenheten"
+
+#: home/templates/index.html:12
+msgid ""
+"This version handles everything concerning production, blocking and "
+"searching of pallets."
+msgstr ""
+"Den här versionen behandlar allt i fråga om framställning, kavlitetstopp "
+"och pallspårning."
+
+#: home/templates/index.html:15
+msgid "Cookie Delivery Unit"
+msgstr "Leveransbakverksenheten"
+
+#: home/templates/index.html:16
+msgid ""
+"This version handles handles everything concerning orders and deliveries."
+msgstr ""
+"Den här versionen behandlar allt i fråga om beställningar och leverans."
+
+#: templates/base.html:19
 msgid "Krusty’s Supervision Tool"
 msgstr "Krustys övervakningsverktyg"
 
-#: home/templates/error.html:9
+#: templates/error.html:9
 #, python-format
 msgid "Error %(status)s"
 msgstr "Fel %(status)s"
 
-#: home/templates/error.html:11
+#: templates/error.html:11
 #, python-format
 msgid ""
 "\n"
@@ -54,12 +84,3 @@ msgstr ""
 "            <div class=\"text-center\">Tyck på valfri länk för att fortsätta "
 "<blink>_</blink></div>\n"
 "        "
-
-#: home/templates/index.html:6
-#, python-format
-msgid "Hello, %(name)s!"
-msgstr "Hej %(name)s!"
-
-#: home/templates/index.html:8
-msgid "Hello, World!"
-msgstr "Hej värden!"

@@ -1,14 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-16 00:59+0100\n"
+"POT-Creation-Date: 2017-02-16 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +12,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: home/templates/base.html:19
+#: home/templates/index.html:7
+msgid "Cookie Supply Unit"
+msgstr "La unidad de suministro de galletas"
+
+#: home/templates/index.html:8
+msgid "This version handles everything concerning raw materials and recipes."
+msgstr "Esta versión se encarga de todo lo relacionando con las materias primas "
+"y recetas."
+
+#: home/templates/index.html:11
+msgid "Cookie Production Unit"
+msgstr "La unidad de producción de galletas"
+
+#: home/templates/index.html:12
+msgid ""
+"This version handles everything concerning production, blocking and "
+"searching of pallets."
+msgstr ""
+"Esta versión se encarga de todo lo relacionando con la producción, "
+"el desistimiento y la localización de paletas."
+
+#: home/templates/index.html:15
+msgid "Cookie Delivery Unit"
+msgstr "La unidad de expedición de galletas"
+
+#: home/templates/index.html:16
+msgid ""
+"This version handles handles everything concerning orders and deliveries."
+msgstr ""
+"Esta versión se encarga de todo lo relacionando con los pedidos y "
+"las entregas."
+
+#: templates/base.html:19
 msgid "Krusty’s Supervision Tool"
 msgstr "Herramienta de supervisión de Krusty"
 
-#: home/templates/error.html:9
+#: templates/error.html:9
 #, python-format
 msgid "Error %(status)s"
 msgstr "Error %(status)s"
 
-#: home/templates/error.html:11
+#: templates/error.html:11
 #, python-format
 msgid ""
 "\n"
@@ -43,21 +69,13 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            Se ha producido un error crítico desde %(ip)s al intentar acceder\n"
+"            Se ha producido un error crítico desde %(ip)s al intentar "
+"acceder\n"
 "            %(path)s el %(date)s %(time)s usando %(browser)s.\n"
 "            <br /><br />\n"
-"            *&nbsp;&nbsp;Haga clic <a href=\"/\">aquí</a> para volver a la página "
-"principal.<br />\n"
+"            *&nbsp;&nbsp;Haga clic <a href=\"/\">aquí</a> para volver a la "
+"página principal.<br />\n"
 "            <br /><br />\n"
-"            <div class=\"text-center\">Pulse cualquier enlace para continuar <blink>_</"
-"blink></div>\n"
+"            <div class=\"text-center\">Pulse cualquier enlace para continuar "
+"<blink>_</blink></div>\n"
 "        "
-
-#: home/templates/index.html:6
-#, python-format
-msgid "Hello, %(name)s!"
-msgstr "¡Hola %(name)s!"
-
-#: home/templates/index.html:8
-msgid "Hello, World!"
-msgstr "¡Hola a todo el mundo!"
