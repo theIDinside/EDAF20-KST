@@ -5,7 +5,7 @@ from django.template import Context, loader
 
 
 def home(request):
-    return render(request, 'index.html', [])
+    return render(request, 'home/index.html', [])
 
 
 def error400(request):
