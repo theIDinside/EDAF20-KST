@@ -2,7 +2,7 @@
 
 Alla som lägger beställning måste vara registerade i databasen.
 ```
-customers(id, customer, address, country)
+customers(_id_, customer, address, country)
 ```
 
 ##### CUSTOMERS
@@ -17,15 +17,17 @@ customers(id, customer, address, country)
 | 7   | Gästkakor AB  | Hässleholm   | SE      |
 | 8   | Skånekakor AB | Perstorp     | SE      |
 
+Kolumnen **id** är *AUTO_INCREMENT* och motsvarar kundens **kundnummer**.
+
 ---
 
 Recept för en given produkt måste finnas i databasen, där man ser namn på råvaran, dess mängd som krevs för receptet.
 
 ```
-products(id, product)
-ingredients(id, ingredient)
-units(id, unit)
-recipes(productId, ingredientId, quantity, unitId)
+products(_id_, product)
+ingredients(_id_, ingredient)
+units(_id_, unit)
+recipes(productId [FK], ingredientId [FK], quantity, unitId [FK])
 ```
 
 ##### PRODUCTS
@@ -67,7 +69,7 @@ recipes(productId, ingredientId, quantity, unitId)
 | 1   | g    |
 | 2   | dl   |
 
-##### recipes(productId, ingredientId, quantity, unitId)
+##### RECIPES
 | productId  | ingredientId | quantity | unitId |
 |:----------:|:------------:|:--------:|:------:|
 | 1          | 1            | 450      | 1      |
