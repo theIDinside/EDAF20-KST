@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block head %}
+<link href="/static/css/error.min.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div id="parent">
+    <div id="child">
+        <div id="title">{% blocktrans %}Error {{ status }}{% endblocktrans %}</div>
+        <div id="error">
+        {% blocktrans %}
+            A critical error from {{ ip }} has occurred whilst trying to access
+            {{ path }} on {{ date }} {{ time }} using {{ browser }}.
+            <br /><br />
+            *&nbsp;&nbsp;Click <a href="/">here</a> to reset to the home page.<br />
+            <br /><br />
+            <div class="text-center">Press any link to continue <blink>_</blink></div>
+        {% endblocktrans %}
+        </div>
+    </div>
+</div>
+{% endblock %}

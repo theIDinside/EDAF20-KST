@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-16 00:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: home/templates/base.html:19
+msgid "Krusty’s Supervision Tool"
+msgstr "Krustys övervakningsverktyg"
+
+#: home/templates/error.html:9
+#, python-format
+msgid "Error %(status)s"
+msgstr "Fel %(status)s"
+
+#: home/templates/error.html:11
+#, python-format
+msgid ""
+"\n"
+"            A critical error from %(ip)s has occurred whilst trying to "
+"access\n"
+"            %(path)s on %(date)s %(time)s using %(browser)s.\n"
+"            <br /><br />\n"
+"            *&nbsp;&nbsp;Click <a href=\"/\">here</a> to reset to the home "
+"page.<br />\n"
+"            <br /><br />\n"
+"            <div class=\"text-center\">Press any link to continue <blink>_</"
+"blink></div>\n"
+"        "
+msgstr ""
+"\n"
+"            Ett kritiskt fel från %(ip)s har inträffat medan du försökte få "
+"tillgång till\n"
+"            %(path)s vid tiden %(date)s %(time)s genom att nyttja  "
+"%(browser)s.\n"
+"            <br /><br />\n"
+"            *&nbsp;&nbsp;Klicka <a href=\"/\">här</a> för att återgå till "
+"startsidan.<br />\n"
+"            <br /><br />\n"
+"            <div class=\"text-center\">Tyck på valfri länk för att fortsätta "
+"<blink>_</blink></div>\n"
+"        "
+
+#: home/templates/index.html:6
+#, python-format
+msgid "Hello, %(name)s!"
+msgstr "Hej %(name)s!"
+
+#: home/templates/index.html:8
+msgid "Hello, World!"
+msgstr "Hej värden!"
